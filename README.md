@@ -15,6 +15,9 @@
 > ### **Python:**
 > **Python** is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. -Excerpt from Wikipedia
 
+> ### **C++:**
+> **C++** is a high-level, general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". -Excerpt from Wikipedia
+
 ### More Tools:
 
  [Portable Tool Database](http://example.com)
