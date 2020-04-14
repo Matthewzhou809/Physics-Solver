@@ -37,24 +37,61 @@ int main()
 
     //Equations
     char kin1[4] = {'a', 'v', 'i', 'd'};
+    char Fqqrr[] = {'F', 'q', 'Q', 'd', 'd'};
+    char Eqrr[] = {'E', 'q', 'd', 'd'};
+    char EVx[] = {'E', 'V', 'd'};
+    char Vqr[] = {'V', 'q', 'd'};
+    char UqV[] = {'q', 'V', 'U'};
+    char VqC[] = {'q', 'V', 'C'};
+    char CAd[] = {'A', 'd', 'C'};
+    char UQV[] = {'Q', 'V', 'U'};
+    char UCVV[] = {'C', 'V', 'V', 'U'};
+    char UCVV[] = {'C', 'V', 'V', 'U'};
+
+    string equations[] = {
+        "kin1",
+        "Fqqrr",
+        "Eqrr",
+        "EVx",
+        "Vqr",
+        "UqV",
+        "VqC",
+        "CAd",
+        "UQV",
+        "UCVV",
+    };
 
     //End of Equations; Size of Equation
-    int sizekin1 = my_sizeof(kin1) / my_sizeof(kin1[0]) - 1;
+
+    const int NumofEquations = my_sizeof(kin1) / my_sizeof(kin1[0]) - 1;
+    string sizefun[NumofEquations];
+    for (size_t i = 0; i < NumofEquations; i++)
+    {
+        sizefun[i] = {"s" + equations[i]};
+    }
+
+    for (size_t i = 0; i < NumofEquations; i++)
+    {
+        for (size_t i = 0; j < count; j++)
+        {
+            int sizekin1 = my_sizeof(kin1) / my_sizeof(kin1[0]) - 1;
+        }
+    }
+
     //End Size of Equation
     while ('9' != input)
     {
-        cout << "\nType any Char for variable; type 9 for Stop\nVar:";
+        cout << "\nType any Char for variable; type 9 to Stop\nVar:";
         cin >> input;
         //Check for input vs array
         for (size_t i = 0; i < sizekin1; i++)
         {
             if (search(kin1[i], input) == true)
                 contkin1++;
-            cout << contkin1 << endl;
         }
         //End of Check for input vs array
     }
-    
+
     //Check for counter vs size
     if (contkin1 == sizekin1)
         beqkin1 = true;

@@ -1,7 +1,16 @@
 # **Physics Problem Solver**
-### Introduction:
+## **Introduction:**
 
     This Repo Stores codes for algorithm that solves physics problem given initial conditions.
+
+
+## **Order of adding formulas**
+1. Equations
+2. Counters
+3. Equations Bool
+4. Actual Equation
+5. Size of Equation (array)
+6. Check for input vs array
 
 **Convenient Codes for Matt**
 -------
@@ -9,6 +18,8 @@
 ### Written in:
 
 - Python
+- Markdown
+- C++
 > ### **Markdown:**
 > **Markdown** is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. -Excerpt from Wikipedia
 
